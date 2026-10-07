@@ -117,7 +117,7 @@ A branch-based workspace for organizing confidential documents in folders protec
 
 ### Requirements
 
-- PHP 8.1 or later.
+- PHP 8.4 or later.
 - Composer.
 - MySQL.
 
