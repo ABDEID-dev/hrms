@@ -1,0 +1,29 @@
+ABDEID Proprietary License and third-party licensing policy
+
+Copyright (c) 2026 ABDEID
+Contact: +971551806906
+
+This distribution contains materials with different licensing terms.
+No blanket Apache-2.0 or MIT grant applies to the entire distribution.
+
+1. Original HRMS code
+The original HRMS code by amralsaleeh@outlook.com remains subject to
+the MIT license reproduced without modification in LICENSE.md.
+Existing grants and third-party copyright notices remain intact.
+
+2. ABDEID additions and Enterprise materials
+Original additions owned by ABDEID, including Enterprise code,
+are proprietary unless explicitly designated otherwise by the owner.
+See LICENSE-ENTERPRISE.md. These terms do not restrict the original
+MIT code, third-party materials, or previously granted open-source rights.
+
+3. Explicit Apache-2.0 releases
+Only owner-controlled files expressly carrying an Apache-2.0 license
+notice, or explicitly listed by exact path in an owner-approved release
+manifest, are licensed under Apache-2.0. The unmodified license text is
+in licenses/Apache-2.0.txt. No files are designated by this policy alone.
+The presence of that license text does not license Enterprise materials.
+
+4. Third-party materials
+Dependencies, templates, assets, and other third-party materials retain
+their own licenses. This policy grants no additional rights over them.

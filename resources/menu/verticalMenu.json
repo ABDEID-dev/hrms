@@ -1,0 +1,432 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-dashboard",
+      "slug": "dashboard",
+      "role": ["AM", "CC", "CR", "HR", "Employee", "ManagementEmployee", "Viewer"]
+    },
+    {
+      "url": "/employee/portal",
+      "name": "ui.employee_portal_menu",
+      "icon": "menu-icon tf-icons ti ti-id-badge-2",
+      "slug": "employee-portal",
+      "role": ["Employee", "ManagementEmployee", "Viewer"]
+    },
+    {
+      "url": "/employee/management-responses",
+      "name": "ui.management_responses_center",
+      "icon": "menu-icon tf-icons ti ti-message-circle",
+      "slug": "employee-management-responses",
+      "role": ["Employee", "ManagementEmployee", "Viewer"]
+    },
+    {
+      "url": "/employee/complaints",
+      "name": "ui.complaints",
+      "icon": "menu-icon tf-icons ti ti-alert-triangle",
+      "slug": "employee-complaints",
+      "role": ["Employee", "ManagementEmployee", "Viewer"]
+    },
+    {
+      "menuHeader": "Human resource",
+      "role": ["HR", "CC"]
+    },
+    {
+      "name": "Attendance",
+      "icon": "menu-icon tf-icons ti ti-door-exit",
+      "slug": "attendance",
+      "role": ["HR", "CC"],
+      "submenu": [
+        {
+          "url": "attendance/fingerprints",
+          "name": "Fingerprints",
+          "slug": "attendance-fingerprints",
+          "role": ["HR"]
+        },
+        {
+          "url": "attendance/leaves",
+          "name": "Leaves",
+          "slug": "attendance-leaves",
+          "role": ["HR", "CC"]
+        }
+      ]
+    },
+    {
+      "name": "Structure",
+      "icon": "menu-icon tf-icons ti ti-hierarchy",
+      "slug": "structure",
+      "role": ["HR"],
+      "submenu": [
+        {
+          "url": "structure/centers",
+          "name": "Centers",
+          "slug": "structure-centers",
+          "role": ["HR"]
+        },
+        {
+          "url": "structure/departments",
+          "name": "Departments",
+          "slug": "structure-departments",
+          "role": ["HR"]
+        },
+        {
+          "url": "structure/positions",
+          "name": "Positions",
+          "slug": "structure-positions",
+          "role": ["HR"]
+        },
+        {
+          "url": "structure/employees",
+          "name": "Employees",
+          "slug": "structure-employees",
+          "role": ["HR"]
+        },
+        {
+          "url": "structure/employee-documents",
+          "name": "التحقق",
+          "slug": "structure-employee-documents",
+          "role": ["Admin", "HR", "ManagementEmployee"],
+          "permission": "view employee documents"
+        }
+      ]
+    },
+    {
+      "name": "Messages",
+      "icon": "menu-icon tf-icons ti ti-message-dots",
+      "slug": "messages",
+      "role": ["HR", "CC", "ManagementEmployee"],
+      "submenu": [
+        {
+          "url": "messages/bulk",
+          "name": "Bulk",
+          "slug": "messages-bulk",
+          "role": ["HR", "CC"]
+        },
+        {
+          "url": "messages/personal",
+          "name": "Personal",
+          "slug": "messages-personal",
+          "role": ["HR"]
+        },
+        {
+          "url": "messages/employee-requests",
+          "name": "ui.employee_requests_management",
+          "slug": "messages-employee-requests",
+          "role": ["HR", "ManagementEmployee"],
+          "permission": "view employee requests"
+        },
+        {
+          "url": "messages/complaints",
+          "name": "ui.complaints_management",
+          "slug": "management-complaints",
+          "role": ["HR", "ManagementEmployee"],
+          "permission": "manage management complaints"
+        },
+        {
+          "url": "messages/deleted-documents",
+          "name": "ui.deleted_documents",
+          "slug": "messages-deleted-documents",
+          "role": ["HR", "ManagementEmployee"],
+          "permission": "view deleted documents"
+        }
+      ]
+    },
+    {
+      "url": "/discounts",
+      "name": "Discounts",
+      "icon": "menu-icon tf-icons ti ti-coin",
+      "slug": "discounts",
+      "role": ["HR", "ManagementEmployee"]
+    },
+    {
+      "url": "/customers",
+      "name": "Customers",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "customers",
+      "role": ["Admin", "ManagementEmployee"]
+    },
+    {
+      "menuHeader": "ادارة الاعمال",
+      "role": ["Admin", "ManagementEmployee"]
+    },
+    {
+      "name": "ادارة الاعمال",
+      "icon": "menu-icon tf-icons ti ti-briefcase",
+      "slug": "business-management",
+      "role": ["Admin", "ManagementEmployee"],
+      "submenu": [
+        {
+          "url": "/salary-report",
+          "name": "ui.salary_report",
+          "icon": "menu-icon tf-icons ti ti-report-money",
+          "slug": "salary-report",
+          "role": ["Admin"],
+          "permission": "view salary report"
+        },
+        {
+          "url": "accounts/employee-revenues",
+          "name": "إيرادات الموظفين",
+          "icon": "menu-icon tf-icons ti ti-chart-bar",
+          "slug": "accounts-employee-revenues",
+          "role": ["Admin", "ManagementEmployee"],
+          "permission": "view employee revenues"
+        },
+        {
+          "url": "accounts/treasury-audit",
+          "name": "ui.treasury_audit",
+          "icon": "menu-icon tf-icons ti ti-history",
+          "slug": "accounts-treasury-audit",
+          "role": ["Admin"],
+          "permission": "view treasury audit"
+        },
+        {
+          "url": "/employee-tracking",
+          "name": "تتبع الموظفين",
+          "icon": "menu-icon tf-icons ti ti-map-pin",
+          "slug": "employee-tracking",
+          "role": ["Admin"]
+        },
+        {
+          "url": "/admin-tracking",
+          "name": "تتبع الأدمن",
+          "icon": "menu-icon tf-icons ti ti-shield-search",
+          "slug": "admin-tracking",
+          "role": ["Admin"]
+        },
+        {
+          "url": "accounts/expense-reports",
+          "name": "تقارير المصاريف",
+          "icon": "menu-icon tf-icons ti ti-report-analytics",
+          "slug": "accounts-expense-reports",
+          "role": ["Admin", "ManagementEmployee"],
+          "permission": "view accounts treasury"
+        },
+        {
+          "url": "accounts/payroll-payments",
+          "name": "تسديد المرتبات",
+          "icon": "menu-icon tf-icons ti ti-cash-banknote",
+          "slug": "accounts-payroll-payments",
+          "role": ["Admin"]
+        }
+      ]
+    },
+    {
+      "menuHeader": "الحسابات",
+      "role": ["Admin", "ManagementEmployee"]
+    },
+    {
+      "name": "الحسابات",
+      "icon": "menu-icon tf-icons ti ti-wallet",
+      "slug": "accounts",
+      "role": ["Admin", "ManagementEmployee"],
+      "submenu": [
+        {
+          "name": "حسابات مكتوم",
+          "slug": "accounts-maktoom",
+          "role": ["Admin", "ManagementEmployee"],
+          "submenu": [
+            {
+              "url": "accounts/maktoom/revenues",
+              "name": "الإيرادات",
+              "slug": "accounts-maktoom-revenues",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/maktoom/expenses",
+              "name": "المصاريف",
+              "slug": "accounts-maktoom-expenses",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/maktoom/treasury",
+              "name": "الخزنة",
+              "slug": "accounts-maktoom-treasury",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/maktoom/monthly-income-report",
+              "name": "تقرير الشهور",
+              "slug": "accounts-maktoom-monthly-income-report",
+              "role": ["Admin", "ManagementEmployee"]
+            }
+          ]
+        },
+        {
+          "name": "حسابات افاني",
+          "slug": "accounts-avani",
+          "role": ["Admin", "ManagementEmployee"],
+          "submenu": [
+            {
+              "url": "accounts/avani/revenues",
+              "name": "الإيرادات",
+              "slug": "accounts-avani-revenues",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/avani/expenses",
+              "name": "المصاريف",
+              "slug": "accounts-avani-expenses",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/avani/treasury",
+              "name": "الخزنة",
+              "slug": "accounts-avani-treasury",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/avani/monthly-income-report",
+              "name": "تقرير الشهور",
+              "slug": "accounts-avani-monthly-income-report",
+              "role": ["Admin", "ManagementEmployee"]
+            }
+          ]
+        },
+        {
+          "name": "حسابات العطور",
+          "slug": "accounts-perfumes",
+          "role": ["Admin", "ManagementEmployee"],
+          "submenu": [
+            {
+              "url": "accounts/perfumes/revenues",
+              "name": "الإيرادات",
+              "slug": "accounts-perfumes-revenues",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/perfumes/expenses",
+              "name": "المصاريف",
+              "slug": "accounts-perfumes-expenses",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/perfumes/treasury",
+              "name": "الخزنة",
+              "slug": "accounts-perfumes-treasury",
+              "role": ["Admin", "ManagementEmployee"]
+            },
+            {
+              "url": "accounts/perfumes/monthly-income-report",
+              "name": "تقرير الشهور",
+              "slug": "accounts-perfumes-monthly-income-report",
+              "role": ["Admin", "ManagementEmployee"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/holidays",
+      "name": "Holidays",
+      "icon": "menu-icon tf-icons ti ti-christmas-tree",
+      "slug": "holidays",
+      "role": ["HR"]
+    },
+    {
+      "url": "/statistics",
+      "name": "Statistics",
+      "icon": "menu-icon tf-icons ti ti-device-desktop-analytics",
+      "slug": "statistics",
+      "role": ["HR"]
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons ti ti-adjustments-alt",
+      "slug": "settings",
+      "role": ["Admin"],
+      "submenu": [
+        {
+          "url": "settings/users",
+          "name": "Users",
+          "slug": "settings-users"
+        },
+        {
+          "url": "settings/roles",
+          "name": "Roles",
+          "slug": "settings-roles"
+        },
+        {
+          "url": "settings/permissions",
+          "name": "Permissions",
+          "slug": "settings-permissions"
+        },
+        {
+          "url": "log-viewer",
+          "name": "Logs",
+          "slug": "settings-logs",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Assets",
+      "role": ["Admin", "AM", "HR", "ManagementEmployee"]
+    },
+    {
+      "name": "ui.maktoom_dye_management",
+      "icon": "menu-icon tf-icons ti ti-color-swatch",
+      "slug": "maktoom-dye-management",
+      "role": ["Admin", "ManagementEmployee"],
+      "permission": "view maktoom dyes",
+      "submenu": [
+        {
+          "url": "/maktoom/dye-revenues",
+          "name": "ui.dye_salon_revenues",
+          "slug": "maktoom-dye-revenues",
+          "role": ["Admin", "ManagementEmployee"],
+          "permission": "view maktoom dyes"
+        },
+        {
+          "url": "/maktoom/dyes",
+          "name": "ui.dye_inventory",
+          "slug": "maktoom-dyes",
+          "role": ["Admin", "ManagementEmployee"],
+          "permission": "view maktoom dyes"
+        },
+        {
+          "url": "/maktoom/dye-reports",
+          "name": "ui.dye_reports",
+          "slug": "maktoom-dye-reports",
+          "role": ["Admin", "ManagementEmployee"],
+          "permission": "view maktoom dyes"
+        }
+      ]
+    },
+    {
+      "url": "/assets/inventory",
+      "name": "Inventory",
+      "icon": "menu-icon tf-icons ti ti-barcode",
+      "slug": "products",
+      "role": ["AM", "ManagementEmployee"]
+    },
+    {
+      "url": "/salon/services",
+      "name": "Services",
+      "icon": "menu-icon tf-icons ti ti-category",
+      "slug": "salon-services",
+      "role": ["Admin", "ManagementEmployee"]
+    },
+    {
+      "url": "/salon/invoices",
+      "name": "Invoices",
+      "icon": "menu-icon tf-icons ti ti-file-invoice",
+      "slug": "salon-invoices",
+      "role": ["Admin", "ManagementEmployee"]
+    },
+    {
+      "url": "/assets/reports",
+      "name": "Reports",
+      "icon": "menu-icon tf-icons ti ti-file-analytics",
+      "slug": "reports",
+      "role": ["AM", "HR", "ManagementEmployee"]
+    },
+    {
+      "url": "/secret-archive",
+      "name": "ui.secret_archive",
+      "icon": "menu-icon tf-icons ti ti-lock-access",
+      "slug": "secret-archive",
+      "role": ["Admin", "ManagementEmployee", "Accountant", "AvaniSalonSales", "AvaniPerfumesSales", "MaktoomSalonSales"]
+    }
+  ]
+}
