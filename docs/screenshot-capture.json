@@ -1,0 +1,257 @@
+[
+  {
+    "href": "https://hrms.abdeid.com/dashboard",
+    "text": "لوحة القيادة",
+    "filename": "Live-dashboard.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/employee/portal",
+    "text": "بوابة الموظف",
+    "filename": "Live-employee-portal.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/employee/management-responses",
+    "text": "مركز ردود الإدارة",
+    "filename": "Live-employee-management-responses.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/employee/complaints",
+    "text": "الشكاوى",
+    "filename": "Live-employee-complaints.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/attendance/fingerprints",
+    "text": "البصمات",
+    "filename": "Live-attendance-fingerprints.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/attendance/leaves",
+    "text": "الإجازات",
+    "filename": "Live-attendance-leaves.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/structure/centers",
+    "text": "المراكز",
+    "filename": "Live-structure-centers.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/structure/departments",
+    "text": "الأقسام",
+    "filename": "Live-structure-departments.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/structure/positions",
+    "text": "المناصب",
+    "filename": "Live-structure-positions.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/structure/employees",
+    "text": "الموظفين",
+    "filename": "Live-structure-employees.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/structure/employee-documents",
+    "text": "التحقق",
+    "filename": "Live-structure-employee-documents.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/messages/bulk",
+    "text": "الجماعية",
+    "filename": "Live-messages-bulk.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/messages/personal",
+    "text": "الشخصية",
+    "filename": "Live-messages-personal.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/messages/employee-requests",
+    "text": "طلبات الموظفين",
+    "filename": "Live-messages-employee-requests.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/messages/complaints",
+    "text": "إدارة الشكاوى",
+    "filename": "Live-messages-complaints.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/messages/deleted-documents",
+    "text": "مستندات محذوفة",
+    "filename": "Live-messages-deleted-documents.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/discounts",
+    "text": "الخصومات",
+    "filename": "Live-discounts.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/customers",
+    "text": "العملاء",
+    "filename": "Live-customers.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/salary-report",
+    "text": "تقرير الرواتب",
+    "filename": "Live-salary-report.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/employee-revenues",
+    "text": "إيرادات الموظفين",
+    "filename": "Live-accounts-employee-revenues.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/treasury-audit",
+    "text": "سجل الخزنة اليومي",
+    "filename": "Live-accounts-treasury-audit.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/employee-tracking",
+    "text": "تتبع الموظفين",
+    "filename": "Live-employee-tracking.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/admin-tracking",
+    "text": "تتبع الأدمن",
+    "filename": "Live-admin-tracking.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/expense-reports",
+    "text": "تقارير المصاريف",
+    "filename": "Live-accounts-expense-reports.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/payroll-payments",
+    "text": "تسديد المرتبات",
+    "filename": "Live-accounts-payroll-payments.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/maktoom/revenues",
+    "text": "الإيرادات",
+    "filename": "Live-accounts-maktoom-revenues.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/maktoom/expenses",
+    "text": "المصاريف",
+    "filename": "Live-accounts-maktoom-expenses.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/maktoom/treasury",
+    "text": "الخزنة",
+    "filename": "Live-accounts-maktoom-treasury.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/maktoom/monthly-income-report",
+    "text": "تقرير الشهور",
+    "filename": "Live-accounts-maktoom-monthly-income-report.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/avani/revenues",
+    "text": "الإيرادات",
+    "filename": "Live-accounts-avani-revenues.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/avani/expenses",
+    "text": "المصاريف",
+    "filename": "Live-accounts-avani-expenses.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/avani/treasury",
+    "text": "الخزنة",
+    "filename": "Live-accounts-avani-treasury.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/avani/monthly-income-report",
+    "text": "تقرير الشهور",
+    "filename": "Live-accounts-avani-monthly-income-report.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/perfumes/revenues",
+    "text": "الإيرادات",
+    "filename": "Live-accounts-perfumes-revenues.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/perfumes/expenses",
+    "text": "المصاريف",
+    "filename": "Live-accounts-perfumes-expenses.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/perfumes/treasury",
+    "text": "الخزنة",
+    "filename": "Live-accounts-perfumes-treasury.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/accounts/perfumes/monthly-income-report",
+    "text": "تقرير الشهور",
+    "filename": "Live-accounts-perfumes-monthly-income-report.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/holidays",
+    "text": "العطل الرسمية",
+    "filename": "Live-holidays.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/statistics",
+    "text": "الإحصائيات",
+    "filename": "Live-statistics.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/settings/users",
+    "text": "المستخدمين",
+    "filename": "Live-settings-users.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/settings/roles",
+    "text": "القواعد",
+    "filename": "Live-settings-roles.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/settings/permissions",
+    "text": "الصلاحيات",
+    "filename": "Live-settings-permissions.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/log-viewer",
+    "text": "السجلات",
+    "filename": "Live-log-viewer.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/maktoom/dye-revenues",
+    "text": "إيرادات الصالون",
+    "filename": "Live-maktoom-dye-revenues.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/maktoom/dyes",
+    "text": "مخزن الصبغات",
+    "filename": "Live-maktoom-dyes.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/maktoom/dye-reports",
+    "text": "تقارير الصبغات",
+    "filename": "Live-maktoom-dye-reports.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/assets/inventory",
+    "text": "المستودع",
+    "filename": "Live-assets-inventory.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/salon/services",
+    "text": "الخدمات",
+    "filename": "Live-salon-services.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/salon/invoices",
+    "text": "الفواتير",
+    "filename": "Live-salon-invoices.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/assets/reports",
+    "text": "التقارير",
+    "filename": "Live-assets-reports.jpg"
+  },
+  {
+    "href": "https://hrms.abdeid.com/secret-archive",
+    "text": "أرشيف سري",
+    "filename": "Live-secret-archive.jpg"
+  }
+]

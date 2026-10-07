@@ -65,53 +65,364 @@ These credentials are provided for access to the hosted demo.
 
 ## Screenshots
 
+Screenshots captured from the hosted demo on October 7, 2026. Expand each group to explore its sections. Some screens show empty states because no transactions or requests have been recorded.
+
 ![Login screen](public/assets/screenshots/Login.png)
 
 ### Login
 
-A welcoming sign-in interface with email and password fields, password visibility controls, and a Remember Me option for convenient account access.
+The sign-in interface provides account access using an email address or username and password.
 
-![HR dashboard](public/assets/screenshots/Dashboard.png)
+<details>
+<summary><strong>Dashboard & Employee Workspace</strong></summary>
+
+![ Dashboard](public/assets/screenshots/Live-dashboard.jpg)
 
 ### Dashboard
 
-A central overview of HR and financial activity, including active employees, payroll totals, expenses, leave balances, and daily attendance. Quick actions provide convenient access to attendance registration and new records.
+An overview of employee activity, attendance, leave balances, payroll totals, expenses, and available cash.
 
-![Employee portal](public/assets/screenshots/Employee%20Info.png)
+![ Employee Portal](public/assets/screenshots/Live-employee-portal.jpg)
 
 ### Employee Portal
 
-A dedicated employee overview bringing together attendance, working hours, absences, salary figures, and recent deductions. Employees can also submit advance requests and communicate with management from the same interface.
+A personal workspace summarizing attendance, working hours, salary figures, deductions, and requests to management.
 
-![Employee messaging and announcements](public/assets/screenshots/SMS.png)
+![ Management Response Center](public/assets/screenshots/Live-employee-management-responses.jpg)
 
-### Messaging & Announcements
+### Management Response Center
 
-A centralized communication workspace for employee messages and management announcements in Arabic and English. The interface also provides deduction message generation and a summary of messaging activity.
+A consolidated view of employee requests, internal messages, management replies, and approval status.
 
-![Attendance records](public/assets/screenshots/Fingerprints.png)
+![ Employee Complaints](public/assets/screenshots/Live-employee-complaints.jpg)
 
-### Attendance Management
+### Employee Complaints
 
-An attendance workspace for reviewing employee check-in and check-out records by employee and date range. Filters highlight absences or incomplete attendance records, while manual entry and Excel import support record collection.
+A complaint submission interface with supporting files and optional audio recording, alongside the employee’s recent submissions.
 
-![Payroll deduction workflow](public/assets/screenshots/Discount.png)
+</details>
 
-### Payroll Deductions
+<details>
+<summary><strong>Attendance & Organization</strong></summary>
 
-A guided workflow that brings holidays, attendance records, and leave information together before the final review and submission step, helping HR teams prepare deductions through a structured process.
+![ Attendance Records](public/assets/screenshots/Live-attendance-fingerprints.jpg)
 
-![Employee directory](public/assets/screenshots/User.png)
+### Attendance Records
+
+Review check-in and check-out records by employee and date range, filter absences, and access manual entry or Excel import.
+
+![ Weekly Leave Schedule](public/assets/screenshots/Live-attendance-leaves.jpg)
+
+### Weekly Leave Schedule
+
+Assign weekly days off and review employee schedules in a clear seven-day overview.
+
+![ Centers](public/assets/screenshots/Live-structure-centers.jpg)
+
+### Centers
+
+Organize work centers and review member counts, working hours, and days off.
+
+![ Departments](public/assets/screenshots/Live-structure-departments.jpg)
+
+### Departments
+
+Maintain departments and view their member counts as part of the organizational structure.
+
+![ Positions](public/assets/screenshots/Live-structure-positions.jpg)
+
+### Positions
+
+Manage job positions and review vacancy counts within the organization.
+
+![ Employee Directory](public/assets/screenshots/Live-structure-employees.jpg)
 
 ### Employee Directory
 
-A searchable employee list displaying identifiers, names, mobile numbers, and account status. Administrators can locate employee records and add new employees from a single workspace.
+Find employee records and review employee identifiers, names, mobile numbers, and active status.
 
-![Confidential archive](public/assets/screenshots/filepass.png)
+![ Employee Documents](public/assets/screenshots/Live-structure-employee-documents.jpg)
+
+### Employee Documents
+
+Organize employee identification documents and receipts, with document types and PDF or image uploads.
+
+</details>
+
+<details>
+<summary><strong>Messaging, Requests & Customers</strong></summary>
+
+![ Bulk Messaging](public/assets/screenshots/Live-messages-bulk.jpg)
+
+### Bulk Messaging
+
+A staged workspace for preparing message text, recipient numbers, and verification, with messaging activity totals.
+
+![ Personal Messaging & Announcements](public/assets/screenshots/Live-messages-personal.jpg)
+
+### Personal Messaging & Announcements
+
+Prepare employee messages, publish bilingual management announcements, and access deduction summaries and messaging channels.
+
+![ Employee Requests](public/assets/screenshots/Live-messages-employee-requests.jpg)
+
+### Employee Requests
+
+Review employee requests using status filters for pending, answered, approved, rejected, and cancelled requests.
+
+![ Complaint Management](public/assets/screenshots/Live-messages-complaints.jpg)
+
+### Complaint Management
+
+Review employee complaints and their supporting attachments using complaint status filters.
+
+![ Deleted Documents](public/assets/screenshots/Live-messages-deleted-documents.jpg)
+
+### Deleted Documents
+
+Review complaint attachments that have been removed and retained for administrator review.
+
+![ Payroll Deductions](public/assets/screenshots/Live-discounts.jpg)
+
+### Payroll Deductions
+
+Record deductions by employee, amount, and reason, then review the dated deduction register with a print option.
+
+![ Customers](public/assets/screenshots/Live-customers.jpg)
+
+### Customers
+
+Maintain customer profiles and service histories without requiring customers to have login accounts.
+
+</details>
+
+<details>
+<summary><strong>Payroll, Reports & Activity</strong></summary>
+
+![ Salary Report](public/assets/screenshots/Live-salary-report.jpg)
+
+### Salary Report
+
+A monthly summary of salaries, withdrawals, attendance values, and available treasury cash for payroll.
+
+![ Employee Revenue Report](public/assets/screenshots/Live-accounts-employee-revenues.jpg)
+
+### Employee Revenue Report
+
+Review employee revenue and tips by month or date range, with branch filters and a printable report.
+
+![ Daily Treasury Audit](public/assets/screenshots/Live-accounts-treasury-audit.jpg)
+
+### Daily Treasury Audit
+
+Review daily revenue, expenses, opening and closing cash balances, historical snapshots, and recorded treasury changes.
+
+![ Employee Activity Tracking](public/assets/screenshots/Live-employee-tracking.jpg)
+
+### Employee Activity Tracking
+
+Review recorded system access and attendance events by employee and date range, including available location records.
+
+![ Administrator Activity Tracking](public/assets/screenshots/Live-admin-tracking.jpg)
+
+### Administrator Activity Tracking
+
+Review administrator access and recorded operations, with separate totals for edits and deletions.
+
+![ Expense Reports](public/assets/screenshots/Live-accounts-expense-reports.jpg)
+
+### Expense Reports
+
+Analyze purchases, withdrawals, tips, and employee advances by branch, expense type, and reporting period.
+
+![ Payroll Payments](public/assets/screenshots/Live-accounts-payroll-payments.jpg)
+
+### Payroll Payments
+
+Review monthly payroll funding, outstanding employee salaries, withdrawals, and payment totals.
+
+</details>
+
+<details>
+<summary><strong>Maktoum Accounts</strong></summary>
+
+![ Maktoum Revenue](public/assets/screenshots/Live-accounts-maktoom-revenues.jpg)
+
+### Maktoum Revenue
+
+Record service or product revenue by employee and payment method, with monthly cash, card, and expense summaries.
+
+![ Maktoum Expenses](public/assets/screenshots/Live-accounts-maktoom-expenses.jpg)
+
+### Maktoum Expenses
+
+Review branch purchases, cash withdrawals, and tips, with daily summaries and dated expense records.
+
+![ Maktoum Treasury](public/assets/screenshots/Live-accounts-maktoom-treasury.jpg)
+
+### Maktoum Treasury
+
+Review opening cash, revenue, expenses, net movement, and closing treasury balances for a selected period.
+
+![ Maktoum Monthly Income Report](public/assets/screenshots/Live-accounts-maktoom-monthly-income-report.jpg)
+
+### Maktoum Monthly Income Report
+
+Compare monthly sales, cash and card income, product and service revenue, expenses, payroll, and net totals.
+
+</details>
+
+<details>
+<summary><strong>Avani Accounts</strong></summary>
+
+![ Avani Revenue](public/assets/screenshots/Live-accounts-avani-revenues.jpg)
+
+### Avani Revenue
+
+Record service or product revenue by employee and payment method, with monthly cash, card, and expense summaries.
+
+![ Avani Expenses](public/assets/screenshots/Live-accounts-avani-expenses.jpg)
+
+### Avani Expenses
+
+Review branch purchases, cash withdrawals, and tips, with daily summaries and dated expense records.
+
+![ Avani Treasury](public/assets/screenshots/Live-accounts-avani-treasury.jpg)
+
+### Avani Treasury
+
+Review opening cash, revenue, expenses, net movement, and closing treasury balances for a selected period.
+
+![ Avani Monthly Income Report](public/assets/screenshots/Live-accounts-avani-monthly-income-report.jpg)
+
+### Avani Monthly Income Report
+
+Compare monthly sales, cash and card income, product and service revenue, expenses, payroll, and net totals.
+
+</details>
+
+<details>
+<summary><strong>Perfumes Accounts</strong></summary>
+
+![ Perfumes Revenue](public/assets/screenshots/Live-accounts-perfumes-revenues.jpg)
+
+### Perfumes Revenue
+
+Record perfume product sales and review cash, card, expense, and monthly revenue summaries.
+
+![ Perfumes Expenses](public/assets/screenshots/Live-accounts-perfumes-expenses.jpg)
+
+### Perfumes Expenses
+
+Review branch purchases, cash withdrawals, and tips, with daily summaries and dated expense records.
+
+![ Perfumes Treasury](public/assets/screenshots/Live-accounts-perfumes-treasury.jpg)
+
+### Perfumes Treasury
+
+Review opening cash, revenue, expenses, net movement, and closing treasury balances for a selected period.
+
+![ Perfumes Monthly Income Report](public/assets/screenshots/Live-accounts-perfumes-monthly-income-report.jpg)
+
+### Perfumes Monthly Income Report
+
+Compare monthly sales, cash and card income, product and service revenue, expenses, payroll, and net totals.
+
+</details>
+
+<details>
+<summary><strong>Holidays, Statistics & Administration</strong></summary>
+
+![ Public Holidays](public/assets/screenshots/Live-holidays.jpg)
+
+### Public Holidays
+
+Maintain holiday names, associated centers, date ranges, and notes for attendance planning.
+
+![ Statistics](public/assets/screenshots/Live-statistics.jpg)
+
+### Statistics
+
+Select a reporting period to review deduction statistics and access report export controls.
+
+![ User Accounts](public/assets/screenshots/Live-settings-users.jpg)
+
+### User Accounts
+
+Review login accounts linked to employee profiles, including assigned roles and branch access.
+
+![ Roles](public/assets/screenshots/Live-settings-roles.jpg)
+
+### Roles
+
+Review system roles, descriptions, assigned users, and permission counts.
+
+![ Permissions](public/assets/screenshots/Live-settings-permissions.jpg)
+
+### Permissions
+
+Browse system permissions grouped by functional area to understand available access controls.
+
+![ Log Viewer](public/assets/screenshots/Live-log-viewer.jpg)
+
+### Log Viewer
+
+Search and browse application log files through the dedicated log viewer; the captured demo has no log files.
+
+</details>
+
+<details>
+<summary><strong>Dyes, Inventory, Services & Archive</strong></summary>
+
+![ Salon Dye Usage](public/assets/screenshots/Live-maktoom-dye-revenues.jpg)
+
+### Salon Dye Usage
+
+Prepare employee dye usage entries with product quantities and review recorded stock consumption.
+
+![ Dye Inventory](public/assets/screenshots/Live-maktoom-dyes.jpg)
+
+### Dye Inventory
+
+Review dye colors, available quantities, total stock, and incoming stock movements.
+
+![ Dye Reports](public/assets/screenshots/Live-maktoom-dye-reports.jpg)
+
+### Dye Reports
+
+Review dye consumption by employee, product, and date, including stock balances before and after deductions.
+
+![ Inventory](public/assets/screenshots/Live-assets-inventory.jpg)
+
+### Inventory
+
+Review branch product quantities in pieces or grams, category summaries, prices, and recent stock movements.
+
+![ Salon Services](public/assets/screenshots/Live-salon-services.jpg)
+
+### Salon Services
+
+Maintain salon service names, prices, branch assignments, and active status.
+
+![ Invoices](public/assets/screenshots/Live-salon-invoices.jpg)
+
+### Invoices
+
+Prepare customer invoices with multiple services, payment details, and participating employees, and review recent invoices.
+
+![ Inventory Reports](public/assets/screenshots/Live-assets-reports.jpg)
+
+### Inventory Reports
+
+Review product balances, stock valuation, sales, and dated inventory movements across branches.
+
+![ Confidential Archive](public/assets/screenshots/Live-secret-archive.jpg)
 
 ### Confidential Archive
 
-A branch-based workspace for organizing confidential documents in folders protected by a numeric passcode. The interface provides branch selection and folder creation to keep archived materials organized.
+Organize branch documents in folders protected by numeric passcodes.
+
+</details>
 
 ## Getting Started
 
