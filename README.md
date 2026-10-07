@@ -1,5 +1,3 @@
-# hrms
-HRMS is a comprehensive business management system designed for perfume stores and beauty salons. It provides an easy and efficient way to manage daily operations, including products, inventory, sales, purchases, customers, suppliers, employees, expenses, and financial reports
 [![GitHub — ABDEID-dev][github-shield]][github-url]
 [![ABDEID License][license-shield]][license-url]
 
@@ -26,6 +24,19 @@ HRMS is a comprehensive business management system designed for perfume stores a
 It optimizes organizational efficiency through clear hierarchy establishment, centralized employee records, streamlined attendance and leave management, precise salary processing, timely alerts, comprehensive HR reports, and efficient asset/device tracking.
 
 This concise solution promotes effective workforce management and informed decision-making.
+
+## Live Demo
+
+Explore ABDEID HRMS through the [live demo](https://hrms.abdeid.com/).
+
+### Demo Administrator Access
+
+| Field | Value |
+| --- | --- |
+| Email | `hrms@abdeid.com` |
+| Password | `112233445566` |
+
+These credentials are provided for access to the hosted demo.
 
 ### Built With
 
