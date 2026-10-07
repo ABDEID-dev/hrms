@@ -63,50 +63,55 @@ These credentials are provided for access to the hosted demo.
 
 - **Support localization:** Supports both English and Arabic languages, with full localization capabilities, including left-to-right (LTR) and right-to-left (RTL) text directions, to ensure usability and compliance with regional and cultural requirements.
 
-![Login](https://github.com/user-attachments/assets/063d57fc-3f79-4e15-8b20-7663b1ef896e)
+## Screenshots
 
-<h3 align="center">Login</h3>
-<br/>
+![Login screen](public/assets/screenshots/Login.png)
 
-![Dashboard](https://github.com/user-attachments/assets/8b8a7132-05a3-4fb3-aa6e-4407ca1cc73d)
+### Login
 
-<h3 align="center">Dashboard</h3>
-<br/>
+A welcoming sign-in interface with email and password fields, password visibility controls, and a Remember Me option for convenient account access.
 
-![Employee Info](https://github.com/user-attachments/assets/0cb0ea64-90a6-4934-9a4e-7c9dce694d5f)
+![HR dashboard](public/assets/screenshots/Dashboard.png)
 
-<h3 align="center">Employee Info</h3>
-<br/>
+### Dashboard
 
-![SMS](https://github.com/user-attachments/assets/7b565ef4-4318-459d-8ec8-145a252d27d7)
+A central overview of HR and financial activity, including active employees, payroll totals, expenses, leave balances, and daily attendance. Quick actions provide convenient access to attendance registration and new records.
 
-<h3 align="center">SMS</h3>
-<br/>
+![Employee portal](public/assets/screenshots/Employee%20Info.png)
 
-![Fingerprints](https://github.com/user-attachments/assets/63e08408-28cd-4d9a-a1f2-6b2cb74cda9a)
+### Employee Portal
 
-<h3 align="center">Fingerprints</h3>
-<br/>
+A dedicated employee overview bringing together attendance, working hours, absences, salary figures, and recent deductions. Employees can also submit advance requests and communicate with management from the same interface.
 
-![Discounts](https://github.com/user-attachments/assets/0c5678ad-b78c-45b4-8794-221e29c1aefc)
+![Employee messaging and announcements](public/assets/screenshots/SMS.png)
 
-<h3 align="center">Discounts</h3>
-<br/>
+### Messaging & Announcements
 
-![User](https://github.com/user-attachments/assets/95e2d08e-1da3-48dc-b606-963185c9db30)
+A centralized communication workspace for employee messages and management announcements in Arabic and English. The interface also provides deduction message generation and a summary of messaging activity.
 
-<h3 align="center">User</h3>
-<br/>
+![Attendance records](public/assets/screenshots/Fingerprints.png)
 
-![Under Development](https://github.com/user-attachments/assets/b1e95d5f-60db-4392-a4c2-d22102698494)
+### Attendance Management
 
-<h3 align="center">Under Development</h3>
-<br/>
+An attendance workspace for reviewing employee check-in and check-out records by employee and date range. Filters highlight absences or incomplete attendance records, while manual entry and Excel import support record collection.
 
-![Log Viewer](https://github.com/user-attachments/assets/4afae1e1-f808-4fb9-af78-8709bff3e218)
+![Payroll deduction workflow](public/assets/screenshots/Discount.png)
 
-<h3 align="center">Log Viewer</h3>
-<br/>
+### Payroll Deductions
+
+A guided workflow that brings holidays, attendance records, and leave information together before the final review and submission step, helping HR teams prepare deductions through a structured process.
+
+![Employee directory](public/assets/screenshots/User.png)
+
+### Employee Directory
+
+A searchable employee list displaying identifiers, names, mobile numbers, and account status. Administrators can locate employee records and add new employees from a single workspace.
+
+![Confidential archive](public/assets/screenshots/filepass.png)
+
+### Confidential Archive
+
+A branch-based workspace for organizing confidential documents in folders protected by a numeric passcode. The interface provides branch selection and folder creation to keep archived materials organized.
 
 ## Getting Started
 
