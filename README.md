@@ -178,8 +178,8 @@ A branch-based workspace for organizing confidential documents in folders protec
 10. Login:
 
     ```bash
-    email: admin@demo.com
-    password: admin
+    email: hrms@abdeid.com
+    password: 112233445566
     ```
 
 ## Contribution
@@ -200,7 +200,8 @@ Copyright (c) 2026 **ABDEID**, for his original additions.
 
 See [LICENSE](LICENSE) for the licensing scope and [NOTICE](NOTICE) for attribution.
 The original HRMS remains under its existing [MIT license](LICENSE.md).
-Upstream attribution: [HRMS by Amr Alsaleh](https://github.com/amralsaleeh/HRMS).
+Project author: [Abdallah Eid](https://github.com/ABDEID-dev).
+Upstream source: [HRMS](https://github.com/amralsaleeh/HRMS).
 ABDEID's original additions, including Enterprise materials, are reserved
 under [ABDEID Proprietary License](LICENSE-ENTERPRISE.md) unless explicitly released otherwise.
 Only explicitly designated files may use [Apache 2.0](licenses/Apache-2.0.txt);
